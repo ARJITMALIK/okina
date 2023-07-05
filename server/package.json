@@ -1,0 +1,25 @@
+{
+  "name": "okina-server",
+  "version": "1.0.0",
+  "description": "Server for okina",
+  "main": "server.main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARJITMALIK/okina.git"
+  },
+  "author": "Arjit Malik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARJITMALIK/okina/issues"
+  },
+  "homepage": "https://github.com/ARJITMALIK/okina#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
