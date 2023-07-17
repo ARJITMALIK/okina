@@ -1,0 +1,8 @@
+<div class="health_wrapper" [ngStyle]="{ 'width.px': stats.maxHealth * 2 }">
+  <div class="health" [ngStyle]="{ 'width.px': stats.health * 2 }">
+    {{ stats.health }}
+  </div>
+  <div class="damage"></div>
+  <button type="button" (click)="regenHealth()">Add Health</button>
+  <button type="button" (click)="regenHealth()">Add Health</button>
+</div>
