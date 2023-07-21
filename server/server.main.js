@@ -1,4 +1,4 @@
-import express, { urlencoded } from "express";
+import express from "express";
 import cors from "cors";
 
 const app = express();
@@ -16,5 +16,7 @@ app.listen(PORT, (req, res) => {
 
 app.get("/", (req, res) => {
   console.log("Endpoint hitted");
-  res.send("yo ho ho ho ho");
+  res.status(200).json({
+    msg: "aight",
+  });
 });
