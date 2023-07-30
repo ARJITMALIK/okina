@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   public spriteHeight: number = 300;
 
   public gameFrame: number = 0;
-  public staggerFrame: number = 7;
+  public staggerFrame: number = 5;
 
   public playerImg: HTMLImageElement = new Image();
 
@@ -53,6 +53,7 @@ export class AppComponent implements OnInit {
         this.frameX++;
       } else {
         this.frameX = 0;
+        this.gameFrame = 0;
       }
     }
     this.gameFrame++;
